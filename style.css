@@ -1,0 +1,372 @@
+body{
+   
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(/images/body-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+    
+    
+header{
+    display: flex;
+    border: none;
+    justify-content: space-between;
+    width:100%;
+    box-shadow:  0px 0px 8px  0px #7d7a7a;
+    margin: 0 auto;
+    align-items: center;
+    height: 70px;
+    
+    
+}
+header nav a{
+    padding-right: 40px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}  
+  
+}
+header img{
+   margin: 0 auto;
+  text-align: left;
+ 
+}
+
+header a:hover{
+    color:blue
+}
+.section1{
+    justify-content:space-between;
+     display: flex;
+     flex-flow: wrap row-reverse;
+     background-image: url(images/backgrondsec1.png);
+     background-size:cover;
+     margin: auto 0 ;
+     box-sizing: border-box; 
+     
+     
+     
+ }
+    
+ #pic1{
+     width:35%;
+    
+   margin-top: 70px;
+     
+     
+     
+ }
+ .sic1{
+     text-align:left;
+     justify-content:space-between;
+     width:63%;
+     margin:  0 auto;
+     font-weight: bold;
+    
+ }
+ 
+ .sic1  h1{
+     
+     font-size: 55px;
+   }
+   .sic1 h5,h3 {
+     font-size: 30px;
+ text-align: left;
+ padding-left: 35px;
+ margin-left: 50px;
+ }
+ .section1 a {
+     justify-content: space-between;
+     flex-flow: row wrap;
+     border:2px solid  #854fee;
+     height: 20px;
+     color:black;
+     padding:15px 30px;
+     text-align: center;
+    width: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+ 
+ }
+ .section1 a:hover{
+     color:white;
+     background-color: #854fee;
+     
+ }
+ 
+
+.section2{
+    justify-content:space-between;
+    display: flex;
+    flex-flow: wrap row;
+    
+    margin: 150px 100px;
+    box-sizing: border-box; 
+    margin-top: 150px;   
+}
+.section2 img{
+    width:40%;
+    height: 400px;
+}
+.section2 div{
+    width:50%;
+}
+.sic2 h2{
+    font-size: 40px;
+}
+.sic2 p{
+    font-size: 17px;
+    color: #777777;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.sic2 a{
+    border:2px solid  #854fee;
+    height: 20px;
+    color:black;
+    padding:15px 30px;
+    text-align: center;
+   width: 10px;
+   margin-top:40px;
+   border-radius: 5px;
+    text-decoration:none;
+    font-size: 17px;
+}
+.sic2 a:hover{
+    color:white;
+    background-color: #854fee;
+}
+.section3{
+    justify-content:space-between;
+    display: flex;
+    flex-flow: wrap row-reverse;
+    position: relative;
+    margin: 150px 100px;
+    box-sizing: border-box; 
+    margin-top: 150px; 
+   
+
+}
+.square{
+    border: 3px  dotted;
+    position: absolute;
+    background-color: #7d7a7a;
+}
+.t-num{
+   width: 30%;
+    background-color:#f8f8ff;
+    height: 300px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+   
+    
+}
+.t-num h1{
+    font-size:100px ;
+    color: blueviolet;
+    padding-top: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    font-weight: 300;
+    margin-top: 0px;
+}
+.t-num h3{
+    font-size: 20px;
+    padding: 0px;
+    margin-right: 30px;
+    margin-bottom: 0px;
+   
+}
+.t-num h2{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.images-sic3{
+    display: flex;
+    width: 60%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 25px;
+    padding-right: 50px;
+    gap: 15px;
+   
+}
+.images-sic3 img{
+    width: 15.3333%;
+    border: 1px solid #bbbbbb38;
+     padding: 34px 50px;}
+#t-logo{
+    height: 60px;
+    margin: 0 aut;
+}
+.section3 a{
+    text-decoration: none;
+    margin-right: 81px;
+}
+.sic4 div{
+    text-align: center;
+    margin: 0 auto;
+
+}
+.sic4 p{
+    color:#a7a4a4;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+text-align: center;  
+margin-top: 80px;
+margin-bottom: 80px;
+}
+
+ .services div{
+    justify-content: space-between;
+    background-color: #F9F9FD;
+    width: 20%;
+    padding: 0 auto;
+    margin: 0 auto;
+    height: 350px;
+ } 
+ .services img{
+    padding: 34px 50px;
+ }
+
+
+
+
+.section5 {
+    display: flex ;
+    justify-content: space-between; 
+    flex-direction: row wrap; 
+    margin:0 auto;
+    width:86%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+.section5 h1{
+    font-size: 40px;
+
+}
+.section5 a{
+    flex-direction: row ;
+  text-decoration: none ;
+  color:black;
+  justify-content: space-between;
+  padding-right: 40px;
+}
+.section5 a:hover{
+    color: purple;
+}
+
+
+.section6 {
+    display: flex;
+    justify-content: space-around;
+text-align: left; 
+flex-flow: row wrap ; 
+padding-top: 50px;
+}
+
+ .section6 div{
+    
+   
+    width: 25%;
+    padding: 0 auto;
+    margin: 0 auto;
+  
+ } 
+ .section6 p{
+     color: rgb(116, 116, 116);
+ }
+ .section7{
+     margin: 0 auto;
+     text-align: center;
+     margin-top: 100px;
+ }
+ .section7 h1{
+     font-size: 37px;
+    
+ }
+ .section7 p{
+     color:rgb(185, 184, 184);
+ }
+ .section8{
+     display: flex;
+     flex-flow: row wrap;
+     margin: 0 auto;
+     margin-top: 100px;
+   
+    }
+     
+    
+ .section8 img{
+     margin-left: 80px;
+ }
+ .section8 div{
+     padding-left: 30px;
+   
+ }
+ .section8 p{
+     color:rgb(116, 116, 116);
+     width:100%;
+ }
+.section9{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    margin-top: 200px;
+   }
+.last-sic{
+    color: white;
+    background-color:  #8667ed;
+    border: none;
+    height: 300px;
+    margin: 0 auto;
+text-align: center;
+width:85%;
+background-image: url(images/backgrondsec1.png);
+padding-top: 100px;
+
+}
+.last-sic p{
+    color:white;
+}
+.last-sic h1{
+    font-size: 30px;
+}
+.last-sic input[type="email"]{
+    width: 30%;
+    height: 40px;
+    border: 1px  solid white;
+   background: transparent;
+   color: 2px solid white;
+   font-size: 15px;
+   border-radius: 5px;
+   font-weight: bold;
+   padding-left: 10px;
+   color:white;
+   
+}
+.last-sic input[type="submit"]{
+    width: 15%;
+    height:44px ;
+   border-bottom:  2px solid black;
+    border-right: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 200px;
+}
